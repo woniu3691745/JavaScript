@@ -21,3 +21,4 @@ console.log(d1.substr(1,2)) // 包含2
 console.log(d1.substring(1))
 console.log(d1.substring(1,2)) // 不包含2
 
+console.log('');
