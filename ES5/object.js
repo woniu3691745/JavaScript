@@ -207,3 +207,6 @@ SubType.prototype.sayName = function (){
 }
 
 var instance = new SubType("li", 12);
+
+
+// 大多数浏览器的ES5实现中，每一个对象都有_proto_属性，指向对应的构造函数的prototype属性。
