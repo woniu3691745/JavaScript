@@ -1,9 +1,7 @@
-function Persion () {
-    let name = '1';
-}
-new Persion();
+let array = [1,2,3,4,5];
+let r = array.splice(0, 2);
+console.log(r)
 
-var persion1 = {
-    name: '2',
-    age: 11
-}
+let array1 = [1,2,3,4,5];
+let r1 = array1.slice(1, 2);
+console.log(r1);
