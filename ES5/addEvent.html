@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <span id="myBtn">button</span>
+    <script>
+        var btn = document.getElementById("myBtn")
+        btn.addEventListener("click", function () {
+            alert(this.id)
+        }, false)
+        /**
+            btn.removeEventListener("click", function () {
+                ...
+            })
+        */
+
+        /** 用于IE
+            btn.attachEvent("onclick", function () {
+                alert(this.id)
+            }, false)
+
+            btn.detachEvent...
+        */
+    </script>
+</body>
+</html>
+
+<!-- 
+    如果是true，在捕获阶段处理程序；
+    如果是false，在冒泡阶段处理程序。
+ -->
