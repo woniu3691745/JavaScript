@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+table {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+form {
+	margin: 10px 10px;
+	width: 400px;
+	height: auto;
+	/*display: block;*/
+}
+form div {
+	padding: 5px 5px;
+}
+form input {
+	margin: 0 auto;
+	float: right;
+}
+label {
+	text-align: right;
+	vertical-align: middle;
+	/*float: right;*/
+	font-size: 14px;
+	color: #48576a;
+	line-height: 1;
+	padding: 11px 12px 11px 0;
+	box-sizing: border-box;
+}
